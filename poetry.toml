@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bad"
+version = "0.0.1"
+authors = ["Jeremiah Paige <ucodery@gmail.com>"]
+description = "please, Please, PLEASE, don't install"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bad-project = "0.0.1"
+attrs = "20.2.0"
+black = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

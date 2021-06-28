@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "bad"
+author = "Jeremiah Paige"
+author-email = "ucodery@gmail.com"
+home-page = "https://github.com/ucodery/bad-project"
+requires = [
+    "bad-project==0.0.1",
+    "attrs==20.2.0",
+    "black",
+]
